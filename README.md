@@ -34,6 +34,20 @@ This project uses the microcontroller's internal timer to generate a square wave
 
 ---
 
+## Project 3: PWM Duty Cycle Generator
+
+* **File:** `cycle_generator.asm`  
+* **Description:** This project creates a Pulse Width Modulation (PWM) signal with a user-defined duty cycle. The program reads two digits from the keypad to determine the duty cycle percentage. It then uses subroutines with fixed delays to generate the high and low portions of the square wave, effectively controlling the duty cycle. This project is a good example of how to implement a PWM signal without using the built-in timer features.
+
+---
+
+## Project 4: Timer Interrupt Counter
+
+* **File:** `timer_interrupt.asm`  
+* **Description:** This project uses a timer interrupt to count events. The program configures the microcontroller's timer to interrupt the main loop after a specific number of clock cycles. The interrupt service routine increments a counter, and the main program then displays the final count on the LCD. This project highlights a different approach to timer programming by using interrupts, which is more efficient for multitasking than a polling-based loop.
+
+---
+
 ## Hardware and Software Requirements
 - **Microcontroller:** AT89C51  
 - **Keypad:** 4x4 Matrix Keypad  
@@ -48,6 +62,8 @@ This project uses the microcontroller's internal timer to generate a square wave
 3. Simulate the circuit to test the functionality.
    - For the **calculator**: Enter two numbers and an operator.
    - For the **frequency generator**: Follow the on-screen prompts for input.
+   - For the **PWM duty cycle generator**: Input two digits to set the duty cycle percentage, e.g., "50" for 50%.
+   - For the **timer interrupt counter**: Run the simulation and observe the counting on the LCD display.
 
 ---
 
