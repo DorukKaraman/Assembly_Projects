@@ -48,6 +48,13 @@ This project uses the microcontroller's internal timer to generate a square wave
 
 ---
 
+### Project 5: Array Comparison and Counter
+
+* **File:** `array_comparison.asm`
+* **Description:** This program compares two pre-defined arrays of numbers to find common elements. It iterates through each element of a smaller array and searches for it within a larger array. When a match is found, the value is stored in a separate memory location, and a counter is incremented.
+
+---
+
 ## Hardware and Software Requirements
 - **Microcontroller:** AT89C51  
 - **Keypad:** 4x4 Matrix Keypad  
@@ -64,6 +71,7 @@ This project uses the microcontroller's internal timer to generate a square wave
    - For the **frequency generator**: Follow the on-screen prompts for input.
    - For the **PWM duty cycle generator**: Input two digits to set the duty cycle percentage, e.g., "50" for 50%.
    - For the **timer interrupt counter**: Run the simulation and observe the counting on the LCD display.
+   - For the **array comparison**: The program will run automatically on startup. The results (found values and the total count) will be stored in internal memory, which can be inspected in the Proteus simulation environment.
 
 ---
 
